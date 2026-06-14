@@ -2,7 +2,7 @@ import express from 'express';
 import http from 'http';
 import { Server, Socket } from 'socket.io';
 import cors from 'cors';
-import { redis, RoomState } from './redisClient';
+import { redis, type RoomState } from './redisClient.js';
 
 const app = express();
 app.use(cors());
