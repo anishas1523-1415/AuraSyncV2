@@ -3,7 +3,7 @@ import 'package:flutter/foundation.dart';
 
 class SocketClient {
   late IO.Socket socket;
-  final String serverUrl = "https://your-node-backend.onrender.com";
+  final String serverUrl = "https://aurasync-socket-hub.onrender.com";
 
   void connect(String userId) {
     socket = IO.io(serverUrl, <String, dynamic>{

@@ -3,7 +3,7 @@ import 'package:audio_service/audio_service.dart';
 
 class AuraAudioHandler extends BaseAudioHandler with QueueHandler, SeekHandler {
   final AudioPlayer _player = AudioPlayer();
-  final String proxyBaseUrl = "https://your-python-backend.onrender.com/api/stream/";
+  final String proxyBaseUrl = "https://aurasyncv2.onrender.com/api/stream/";
 
   AuraAudioHandler() {
     _init();
