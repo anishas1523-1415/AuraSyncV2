@@ -13,10 +13,7 @@ __pycache__/
 *.pyd
 
 # TypeScript compiled outputs
-backend-sockets/src/**/*.js
-backend-sockets/src/**/*.js.map
-backend-sockets/src/**/*.d.ts
-backend-sockets/src/**/*.d.ts.map
+backend-sockets/dist/
 
 # Flutter / Dart / Mobile
 .dart_tool/
